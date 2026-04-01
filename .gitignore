@@ -1,0 +1,32 @@
+# Python / Virtual Envs
+__pycache__/
+*.py[cod]
+*.pyc
+.venv/
+env/
+venv/
+*.so
+
+# Environment Variables
+.env
+
+# Temporary Audio & Data (Privacy Protection)
+*.wav
+*.mp3
+temp_data/
+logs/
+
+# IDE & OS Settings
+.vscode/
+.idea/
+.cursorrules
+.DS_Store
+
+# Local Models (Ollama models are stored elsewhere, but just in case)
+models/
+*.bin
+*.gguf
+
+#personal files
+report_context.md
+commands.txt

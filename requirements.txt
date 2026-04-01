@@ -1,0 +1,30 @@
+# --- Frontend & Analytics ---
+streamlit>=1.30.0
+requests>=2.31.0
+pandas>=2.1.0
+plotly>=6.3.0
+fpdf2>=2.8.7
+Pillow>=10.0.0
+markdown>=3.5.2
+
+# --- Backend Server ---
+fastapi>=0.109.0
+uvicorn>=0.27.0
+python-multipart>=0.0.9
+pydantic>=2.5.3
+
+# --- AI & Audio (CUDA STACK) ---
+# Note: For local Windows installs without CUDA, you may need: 
+# pip install torch torchaudio
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch>=2.1.2
+torchaudio>=2.1.2
+faster-whisper>=1.2.1
+librosa>=0.11.0
+soundfile>=0.13.1
+
+# --- LLM & Utilities ---
+ollama>=0.1.6
+pyttsx3>=2.90
+psutil>=5.9.8
+py-cpuinfo>=9.0.0
